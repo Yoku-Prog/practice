@@ -1,0 +1,68 @@
+body {
+    background-color: black;
+}
+
+p {
+    margin: 0%;
+}
+
+h3 {
+    margin: 0;
+    margin-bottom: 4px;
+}
+
+.chat {
+    display: flex;
+    flex-flow: row;
+    background-color: rgb(158, 158, 158);
+    align-items: center;
+    padding: 12px;
+    border-radius: 8px;
+    border: solid 2px black;
+    margin-bottom: 6px;
+    transition: .5s;
+}
+
+img {
+    border-radius: 100%;
+    margin-right: 30px;
+    height: 60px;
+
+}
+.chat:hover{
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+
+.chat{
+    position: relative;
+}
+.reply{
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    border-radius: 20px;
+    padding: 5px 10px 5px 10px;
+    transition: .5s;
+}
+.delete{
+    position: absolute;
+    top: 45px;
+    right: 12px;
+    border-radius: 20px;
+    padding: 5px 10px 5px 10px;
+    transition: .5s;
+}
+.reply:hover{
+    background-color: green;
+    cursor: pointer;
+}
+.delete:hover{
+    background-color: red;
+    cursor: pointer;
+}
+.clicked {
+    background: pink;
+    scale: 3
+}
